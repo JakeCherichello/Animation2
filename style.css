@@ -1,0 +1,22 @@
+html{
+    background: #ff785a;
+}
+
+/* bonus */
+html:hover .spider{
+    top: -120%
+}
+
+.spider {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 30%;
+
+    /* Animate */
+    animation: swing 2s infinite;
+    transform-origin: top;
+
+    /* bonus */
+    transition: 1s ease-in-out;
+}
