@@ -50,7 +50,7 @@ border-radius: 50%;
 }
 
 .spider .body .eye.right{
-    left: 15px;
+    right: 15px;
 }
 
 .spider .body .eye:after {
@@ -63,4 +63,26 @@ border-radius: 50%;
     border-radius: 50%;
 
     animation: look 8s infinite;
+}
+
+.spider .legs .leg {
+    width: 80px;
+    height: 40px;
+    margin-top: -20px;
+    border: 5px solid transparent;
+    border-top-color: #000;
+    border-radius: 40px 40px 0 0;
+}
+
+.spider .legs {
+    position: absolute;
+    bottom: -10%;
+    z-index: -1;
+}
+
+.spider .legs.left {
+    left: -70%;
+}
+.spider .legs.right {
+    right: -60%;
 }
